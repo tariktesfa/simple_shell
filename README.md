@@ -18,12 +18,12 @@
 - Write a README with the description of the project
 ### Test in interactive mode:
 
-`$ ./hsh`
-`($) /bin/ls`
-`hsh main.c shell.c`
-`($)`
-`($) exit`
-`$`
+`$ ./hsh
+($) /bin/ls
+hsh main.c shell.c
+($)
+($) exit
+$`
 
 ### Compilation
 
