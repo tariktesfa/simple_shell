@@ -1,58 +1,46 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Simple shell
 
-# Project Name
+> This is an ALX collaboration project on Shell
+## Written by
 
-> One paragraph statement about the project.
+- C language
+- Shell
+- Betty linter
+## General Requirement
 
-![screenshot](./app_screenshot.png)
+- All files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+- All files should end with a new line
+- A README.md file, at the root of the folder of the project is mandatory
+- Use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+- Shell should not have any memory leaks
+- No more than 5 functions per file
+- All header files should be include guarded
+- Write a README with the description of the project
+### Test in interactive mode:
 
-Additional description about the project and its features.
+`$ ./hsh`
+`($) /bin/ls`
+`hsh main.c shell.c`
+`($)`
+`($) exit`
+`$`
 
-## Built With
+### Compilation
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+`gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh`
 
 ## Authors
 
-👤 **Author1**
+👤 **Tarikwa Tesfa**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@tariktesfa](https://github.com/tariktesfa)
+- Twitter: [@tarikwatesfa](https://twitter.com/tarik_tesfa)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/tarikwa-tesfa)
 
-👤 **Author2**
+👤 **Dawit Sisay**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- GitHub: [@dawitsisayy](https://github.com/DawitSisayy)
+- Twitter: [@Dawitsisay](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
@@ -67,10 +55,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- ALX Community
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
